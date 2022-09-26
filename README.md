@@ -16,6 +16,11 @@ echo "# git基础教程" >> README.md
 ```shell
 git init
 ```
+## 配置用户信息
+```shell
+git config --global user.name "iflyelf"
+git config --global user.email iflyelf@gmail.com
+```
 ## 添加文件到暂存区
 ```shell
 git add .
